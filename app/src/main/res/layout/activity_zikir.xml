@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZikirActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="-390dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/title_zikir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text=" "
+            android:textSize="32pt"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-black"/>
+        <TextView
+            android:id="@+id/times_zikir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"
+            android:textSize="60pt"/>
+
+        <Button
+            android:textAlignment="center"
+            android:id="@+id/bt_adder"
+            android:textColorHint="@color/white"
+            android:textSize="54pt"
+            android:hint="+"
+            android:layout_marginTop="180dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/btcircle"/>
+    </LinearLayout>
+
+</RelativeLayout>
